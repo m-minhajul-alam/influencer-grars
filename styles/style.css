@@ -1,0 +1,65 @@
+/* poppins font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* common shared styles */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 5vh 7vw 4vh 7vw;
+    background-color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #3A3A3A;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.nav-menu-container {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-menus {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    color: #3A3A3A;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.nav-img {
+    width: 18px;
+}
+
+
+/* medis quary for small screen */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 2vh 1vw;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
+
+
+
+/* medis quary for medium screen */
+@media screen and (min-width: 576px) and (max-width: 992px) {}
