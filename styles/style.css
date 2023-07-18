@@ -277,6 +277,28 @@ nav {
 }
 
 
+/* footer section sstyle */
+.footer-container {
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: #0A0826;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-bottom: 1vh;
+}
+
+.footer-description {
+    color: #D9DBE1;
+    font-size: 0.7rem;
+    font-weight: 700;
+    line-height: 18px;
+    padding-bottom: 1.5vh;
+}
 
 /* medis quary for medium screen */
 @media screen and (min-width: 576px) and (max-width: 992px) {
